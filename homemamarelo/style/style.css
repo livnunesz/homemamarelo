@@ -1,0 +1,325 @@
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+background-color: #f7f3e8;
+color: #2b2b2b;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+}
+
+h2, h3 {
+color: #1a365d;
+}
+
+h1 {
+color: white;
+font-size: 38px;
+margin-bottom: 10px;
+}
+
+h2 {
+font-size: 26px;
+}
+
+h3 {
+font-size: 20px;
+}
+
+a {
+color: #c07d12;
+text-decoration: none;
+}
+
+.container, .conteiner {
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.cabecalho {
+background-color: #1a365d;
+color: #f7f3e8;
+padding: 30px 0;
+}
+
+.cabecalho h1 {
+color: white;
+}
+
+.logo span {
+color: #e5a93b;
+}
+
+.etiqueta {
+display: inline-block;
+margin-bottom: 10px;
+color: #8a3014;
+font-size: 13px;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.subtitulo {
+max-width: 700px;
+margin-bottom: 20px;
+color: #dce4ee;
+}
+
+.menu {
+margin-top: 20px;
+}
+
+.lista {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.lista li {
+display: inline-block;
+margin-right: 8px;
+margin-bottom: 8px;
+}
+
+.menu-link {
+display: inline-block;
+padding: 8px 16px;
+background-color: #ffffff;
+color: #1a365d;
+border-radius: 6px;
+transition: 0.3s;
+font-weight: bold;
+}
+
+.menu-link:hover {
+background-color: #e5a93b;
+color: #1a365d;
+}
+
+.secao {
+padding: 60px 0;
+}
+
+.inicio {
+background-color: #ede2c8;
+text-align: center;
+}
+
+.titulo-principal {
+color: #1a365d;
+font-size: 34px;
+margin-bottom: 20px;
+}
+
+.texto-apresentacao {
+max-width: 750px;
+margin: 0 auto 16px;
+}
+
+.titulo-secao {
+margin-bottom: 32px;
+padding-left: 12px;
+border-left: 5px solid #e5a93b;
+border-radius: 5px;
+}
+
+.cabecalho-secao {
+margin-bottom: 30px;
+}
+
+.descricao-secao {
+color: #4a5568;
+}
+
+.grade-cards {
+padding: 24px;
+background-color: #3b5a45;
+border: 1px solid #2d4535;
+border-radius: 10px;
+box-shadow: 0 10px 25px rgba(26, 54, 93, 0.2);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+
+.card {
+padding: 24px;
+background-color: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-4px);
+box-shadow: 0 10px 22px rgba(229, 169, 59, 0.3);
+}
+
+.card h3 {
+margin-top: 10px;
+margin-bottom: 12px;
+color: #1a365d;
+}
+
+.card p {
+color: #4a5568;
+}
+
+.icone {
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+.link-card {
+display: inline-block;
+margin-top: 10px;
+color: #c07d12;
+font-weight: bold;
+}
+
+.link-card:hover {
+color: #1a365d;
+}
+
+.secao-destaque {
+background-color: #ede2c8;
+}
+
+.card-claro {
+background-color: #ffffff;
+}
+
+.botao {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 24px;
+background-color: #e5a93b;
+color: #1a365d;
+border-radius: 8px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.botao:hover {
+background-color: #1a365d;
+color: white;
+}
+
+.mensagem {
+padding-top: 40px;
+}
+
+.mensagem-box {
+padding: 35px;
+background-color: #1a365d;
+color: white;
+text-align: center;
+border-radius: 12px;
+border-bottom: 6px solid #e5a93b;
+}
+
+.mensagem-box h2 {
+color: #e5a93b;
+}
+
+.mensagem-box p {
+color: #f7f3e8;
+}
+
+.mensagem-icone {
+font-size: 35px;
+}
+
+.botao-claro {
+background-color: white;
+color: #1a365d;
+}
+
+.botao-claro:hover {
+background-color: #e5a93b;
+color: #1a365d;
+}
+
+.lista-tecnologias {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.lista-tecnologias li {
+display: inline-block;
+padding: 10px 14px;
+margin: 5px;
+background-color: #ede2c8;
+border: 1px solid #dcd0b3;
+border-radius: 999px;
+}
+
+.rodape {
+margin-top: 40px;
+padding: 30px 20px;
+background-color: #112239;
+color: #f7f3e8;
+text-align: center;
+}
+
+.rodape h2 {
+color: white;
+}
+
+.rodape h2 span {
+color: #e5a93b;
+}
+
+.rodape p {
+margin-bottom: 10px;
+}
+
+.copyright {
+margin-top: 20px;
+font-size: 14px;
+color: #a0aec0;
+}
+
+@media (max-width: 600px) {
+h1 {
+font-size: 30px;
+}
+
+
+.titulo-principal {
+    font-size: 28px;
+}
+
+.secao {
+    padding: 40px 0;
+}
+
+.grade-cards {
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.lista li {
+    margin-right: 3px;
+}
+
+.menu-link {
+    padding: 8px 12px;
+}
+
+.mensagem-box {
+    padding: 25px 18px;
+}
+
+}
